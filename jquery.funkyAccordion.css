@@ -1,0 +1,66 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+ *	CSS for jQuery funkyAccordion plugin.    *
+ *	AUTHOR: Edbali Ossama					 *
+ * * * * * * * * * * * * * * * * * * * * * * */
+
+/* MAIN / WRAPPER */
+.mainAccordion
+{
+	font-family: 'Segoe UI';
+	color: #fff;
+}
+
+/* HEADER (NORMAL) */
+.headAccordion
+{
+	background-color: #555;
+	color: #fff;
+	font-weight: 100;
+	padding: 5px 5px 5px 20px;
+	border-radius: 10px;
+	margin:1px;
+	cursor: pointer;
+
+	/* Transition */
+    -moz-transition: background-color linear 500ms;
+    -o-transition: background-color linear 500ms;
+    -webkit-transition: background-color linear 500ms;
+    transition: background-color linear 500ms;
+}
+
+/* HEADER HOVERED (NORMAL) */
+.headAccordion:hover
+{ background-color: #999; }
+
+/* HEADER (ICON) */
+.headIcon
+{
+	background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 35px;
+}
+
+.activeHeadIcon
+{ background-image: url(../images/minus.png); }
+
+/* HEADER (ACTIVE) */
+.activeAccordion
+{ 
+	border-radius: 10px 10px 0 0;
+	background-color: Orange;
+}
+
+/* HEADER HOVERED (ACTIVE) */
+.activeAccordion:hover 
+{ background-color: Orange; }
+
+/* CONTAINER */
+.containerAccordion
+{
+    padding: 20px;
+	font-size: 13px;
+	background-color: #4f3030;
+	border-radius: 0 0 10px 10px;
+}
